@@ -1,0 +1,32 @@
+﻿  Deck.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(1124,55): error C2794: 'difference_type': is not a member of any direct or indirect base class of 'std::iterator_traits<_RanIt>'
+          with
+          [
+              _RanIt=Card
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(2856): message : see reference to alias template instantiation 'std::_Iter_diff_t<Card>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(2889): message : see reference to function template instantiation 'void std::shuffle<_RanIt,std::_Rand_urng_from_func&>(_RanIt,_RanIt,_Urng)' being compiled
+          with
+          [
+              _RanIt=Card,
+              _Urng=std::_Rand_urng_from_func &
+          ]
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Deck.cpp(25): message : see reference to function template instantiation 'void std::random_shuffle<Card>(_RanIt,_RanIt)' being compiled
+          with
+          [
+              _RanIt=Card
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(2856,1): error C2938: 'std::_Iter_diff_t' : Failed to specialize alias template
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(2856,1): error C2514: 'std::_Rng_from_urng': class template cannot be constructed
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xutility(5737): message : see declaration of 'std::_Rng_from_urng'
+  Euchre.cpp
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Euchre.cpp(56,24): error C2039: 'hand': is not a member of 'Player'
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Player.h(6): message : see declaration of 'Player'
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Euchre.cpp(105,51): error C2248: 'Player::PlayCard': cannot access private member declared in class 'Player'
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Player.h(8): message : see declaration of 'Player::PlayCard'
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Player.h(6): message : see declaration of 'Player'
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Euchre.cpp(124,74): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Player.cpp
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Player.cpp(6,1): error C2011: 'Player': 'class' type redefinition
+C:\Users\pman9\Documents\School\Sem 4-2\C++ 2\Euchre\Euchre\Player.h(6): message : see declaration of 'Player'
+  Generating Code...
